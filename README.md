@@ -15,10 +15,26 @@
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-4. Запись и отслеживание позиций через CSV файл (ещё не готово)
+4. Инструменты: получение свечей, индикаторов, отправка ордеров (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-5. Инструменты: получение свечей, индикаторов, отправка ордеров (ещё не готово)
+5. Запись и отслеживание позиций через CSV файл (ещё не готово)
+   * [Хабр](https://habr.com/ru/users/empenoso/)
+   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+
+6. Сервис, который выполняет функцию трейлинг-стопа (ещё не готово)
+   * [Хабр](https://habr.com/ru/users/empenoso/)
+   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+
+7. Сервис, проверяющий условия для покупки (ещё не готово)
+   * [Хабр](https://habr.com/ru/users/empenoso/)
+   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+
+8. Отрисовка графиков (ещё не готово)
+   * [Хабр](https://habr.com/ru/users/empenoso/)
+   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+
+9. Сервис бэктестинга (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
