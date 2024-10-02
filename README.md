@@ -11,6 +11,14 @@
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
    
-3. Песочница: (ещё не готово)
+3. Работа в песочнице: (ещё не готово)
+   * [Хабр](https://habr.com/ru/users/empenoso/)
+   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+
+4. Запись и отслеживание позиций через CSV файл (ещё не готово)
+   * [Хабр](https://habr.com/ru/users/empenoso/)
+   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+
+5. Инструменты: получение свечей, индикаторов, отправка ордеров (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
