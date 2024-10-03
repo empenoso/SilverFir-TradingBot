@@ -1,25 +1,25 @@
-Ñòðóêòóðà ïàïîê
+ï»¿Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð° Ð¿Ð°Ð¿Ð¾Ðº
 D:.
-¦   package-lock.json
-¦   package.json
-¦   
+Â¦   package-lock.json
+Â¦   package.json
+Â¦   
 +---config
-¦       secrets.js
-¦       
+Â¦       secrets.js
+Â¦       
 +---logs
-¦       trading.log
-¦       trading_2024-09-30.log
-¦       
+Â¦       trading.log
+Â¦       trading_2024-09-30.log
+Â¦       
 +---node_modules
-¦   ¦   .package-lock.json
-¦   
-¦                           
+Â¦   Â¦   .package-lock.json
+Â¦   
+Â¦                           
 L---src
-    ¦   searchTradingVolumes.js
-    ¦   
+    Â¦   searchTradingVolumes.js
+    Â¦   
     +---grpc
-    ¦       tinkoffClient.js
-    ¦       
+    Â¦       tinkoffClient.js
+    Â¦       
     L---services
             logFunctionName.js
             logService.js
