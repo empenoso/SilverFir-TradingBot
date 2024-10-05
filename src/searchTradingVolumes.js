@@ -8,7 +8,7 @@
  * @license Apache-2.0
  * @author Михаил Шардин [Mikhail Shardin]
  * @site https://shardin.name/
- * @repository https://github.com/empenoso?tab=repositories
+ * @repository https://github.com/empenoso/SilverFir-TradingBot
  * 
  * Last updated: 29.09.2024
  */
@@ -101,21 +101,21 @@ async function findTopStocksByTurnover() {
             .slice(0, 15);
 
         // Создаем массивы тикеров и FIGI
-        const stocksArray = topStocks.map(stock => stock.ticker);
-        const figiArray = topStocks.map(stock => stock.figi);
+        const securitiesToMonitorTikerArray = topStocks.map(stock => stock.ticker);
+        const securitiesToMonitorFigiArray = topStocks.map(stock => stock.figi);
 
         // Логируем топ-15 акций и их объем
         logger.info(`Топ 15 акций по объему за последние три месяца: ${JSON.stringify(topStocks, null, 2)}`);
 
         // Логируем тикеры и FIGI
         logger.info(`\n\nВставка в config.js:\n`);
-        logger.info(`\nstocksArray: ${JSON.stringify(stocksArray)}`);
-        logger.info(`\nfigiArray: ${JSON.stringify(figiArray)}`);
+        logger.info(`\nsecuritiesToMonitorTikerArray: ${JSON.stringify(securitiesToMonitorTikerArray)}`);
+        logger.info(`\nsecuritiesToMonitorFigiArray: ${JSON.stringify(securitiesToMonitorFigiArray)}`);
 
         // Возвращаем итоговые данные
         return {
-            stocksArray,
-            figiArray,
+            securitiesToMonitorTikerArray,
+            securitiesToMonitorFigiArray,
             topStocks
         };
 
