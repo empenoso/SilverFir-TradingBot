@@ -9,7 +9,7 @@
 
 1. Как я решил вернуться в алготрейдинг после 10 летнего перерыва:
    * [Хабр](https://habr.com/ru/articles/846938/)
-   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+   * [Смартлаб](https://smart-lab.ru/mobile/topic/1068045/)
      
 2. Поиск рекомендаций аналитиков:  (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
