@@ -1,0 +1,87 @@
+2024-09-30 10:59:03 [INFO]: Отфильтрованных акций 169 штук:
+ [{"figi":"TCS007940839","ticker":"KZIZP","isin":"RU0007940839","name":"Красногорский завод им. С.А. Зверева - привилегированные акции"},{"figi":"BBG000FWGSZ5","ticker":"IRKT","isin":"RU0006752979","name":"Яковлев"},{"figi":"BBG004S68CV8","ticker":"VSMO","isin":"RU0009100291","name":"ВСМПО-АВИСМА"},{"figi":"BBG000Q7ZZY2","ticker":"UNAC","isin":"RU000A0JPLZ7","name":"Объединенная авиастроительная корпорация"},{"figi":"TCS00A106YF0","ticker":"VKCO","isin":"RU000A106YF0","name":"ВК"},{"figi":"BBG000RJL816","ticker":"TTLK","isin":"RU000A0HM5C1","name":"Таттелеком"},{"figi":"BBG004RVFCY3","ticker":"MGNT","isin":"RU000A0JKQU8","name":"Магнит"},{"figi":"TCS00A0ZZAC4","ticker":"SVCB","isin":"RU000A0ZZAC4","name":"Совкомбанк"},{"figi":"TCS009124010","ticker":"KZIZ","isin":"RU0009124010","name":"Красногорский завод им. С.А. Зверева - ао"},{"figi":"BBG001M2SC01","ticker":"ETLN","isin":"US29760G1031","name":"Etalon Group PLC ГДР"},{"figi":"BBG0029SG1C1","ticker":"KZOSP","isin":"RU0006753456","name":"Казаньоргсинтез - акции привилегированные"},{"figi":"TCS00A105EX7","ticker":"WUSH","isin":"RU000A105EX7","name":"Whoosh"},{"figi":"TCS00A107JE2","ticker":"GEMC","isin":"RU000A107JE2","name":"United medical group"},{"figi":"TCS00A0JPP37","ticker":"UGLD","isin":"RU000A0JPP37","name":"Южуралзолото ГК"},{"figi":"BBG004S689R0","ticker":"PHOR","isin":"RU000A0JRKT8","name":"ФосАгро"},{"figi":"TCS00A106XF2","ticker":"HNFG","isin":"RU000A106XF2","name":"HENDERSON"},{"figi":"TCS2207L1061","ticker":"HHRU","isin":"US42207L1061","name":"HeadHunter Group PLC"},{"figi":"BBG000SK7JS5","ticker":"LNZL","isin":"RU000A0JP1N2","name":"Лензолото"},{"figi":"BBG002458LF8","ticker":"SELG","isin":"RU000A0JPR50","name":"Селигдар"},{"figi":"BBG004S68829","ticker":"TATNP","isin":"RU0006944147","name":"Татнефть - привилегированные акции"},{"figi":"TCS009086904","ticker":"SLAV","isin":"RU0009086904","name":"Славнефть"},{"figi":"TCS30A0ZYD22","ticker":"GTRK","isin":"RU000A0ZYD22","name":"ГТМ"},{"figi":"TCS00A0JNXF9","ticker":"PRFN","isin":"RU000A0JNXF9","name":"ЧЗПСН"},{"figi":"BBG004S68507","ticker":"MAGN","isin":"RU0009084396","name":"Магнитогорский металлургический комбинат"},{"figi":"BBG004730ZJ9","ticker":"VTBR","isin":"RU000A0JP5V6","name":"Банк ВТБ"},{"figi":"TCS00A105NV2","ticker":"CARM","isin":"RU000A105NV2","name":"КарМани"},{"figi":"BBG008F2T3T2","ticker":"RUAL","isin":"RU000A1025V3","name":"РУСАЛ"},{"figi":"BBG00BGKYH17","ticker":"NKHP","isin":"RU000A0BLWD7","name":"НКХП"},{"figi":"TCS00A0F61T7","ticker":"TGKJ","isin":"RU000A0F61T7","name":"Форвард Энерго"},{"figi":"BBG004S686N0","ticker":"BANEP","isin":"RU0007976965","name":"Башнефть - привилегированные акции"},{"figi":"BBG00172J7S9","ticker":"OKEY","isin":"US6708662019","name":"O'Key Group SA"},{"figi":"BBG004S68B31","ticker":"ALRS","isin":"RU0007252813","name":"АЛРОСА"},{"figi":"BBG000VG1034","ticker":"MRKP","isin":"RU000A0JPN96","name":"Россети Центр и Приволжье"},{"figi":"BBG000R04X57","ticker":"FLOT","isin":"RU000A0JXNU8","name":"Совкомфлот"},{"figi":"TCS00A107ER5","ticker":"DIAS","isin":"RU000A107ER5","name":"Диасофт"},{"figi":"BBG004RVFFC0","ticker":"TATN","isin":"RU0009033591","name":"Татнефть"},{"figi":"TCS10A0JNAB6","ticker":"ABIO","isin":"RU000A0JNAB6","name":"Артген"},{"figi":"BBG008HD3V85","ticker":"UWGN","isin":"RU000A0JVBT9","name":"ОВК"},{"figi":"BBG000V07CB8","ticker":"DVEC","isin":"RU000A0JP2W1","name":"ДЭК"},{"figi":"BBG004S682Z6","ticker":"RTKM","isin":"RU0008943394","name":"Ростелеком"},{"figi":"TCS30A108JF7","ticker":"PRMD","isin":"RU000A108JF7","name":"Промомед"},{"figi":"TCS00A107RM8","ticker":"ZAYM","isin":"RU000A107RM8","name":"МФК Займер"},{"figi":"BBG004S681W1","ticker":"MTSS","isin":"RU0007775219","name":"МТС"},{"figi":"BBG000RG4ZQ4","ticker":"TGKN","isin":"RU000A0H1ES3","name":"ТГК-14"},{"figi":"BBG00475KHX6","ticker":"TRNFP","isin":"RU0009091573","name":"Транснефть - привилегированные акции"},{"figi":"BBG00475JZZ6","ticker":"FEES","isin":"RU000A0JPNN9","name":"ФСК Россети"},{"figi":"TCS00A0HG6Z8","ticker":"OBNE","isin":"RU000A0HG6Z8","name":"Обьнефтегазгеология - ао"},{"figi":"BBG000MZL0Y6","ticker":"PMSB","isin":"RU000A0ET123","name":"Пермэнергосбыт"},{"figi":"BBG000QFB4J6","ticker":"ZILLP","isin":"RU0006752904","name":"ЗИЛ - акции привилегированные"},{"figi":"BBG004S687G6","ticker":"MSRS","isin":"RU000A0ET7Y7","name":"Россети Московский регион"},{"figi":"BBG004S68473","ticker":"IRAO","isin":"RU000A0JPNM1","name":"Интер РАО ЕЭС"},{"figi":"BBG002BCQK67","ticker":"NSVZ","isin":"RU000A0JQLB6","name":"Наука-Связь"},{"figi":"BBG000RTHVK7","ticker":"GCHE","isin":"RU000A0JL4R1","name":"Группа Черкизово"},{"figi":"BBG004S681M2","ticker":"SNGSP","isin":"RU0009029524","name":"Сургутнефтегаз - привилегированные акции"},{"figi":"BBG00475KKY8","ticker":"NVTK","isin":"RU000A0DKVS5","name":"НОВАТЭК"},{"figi":"BBG002YFXL29","ticker":"UNKL","isin":"RU0004887991","name":"ЮУНК"},{"figi":"BBG000GQSRR5","ticker":"NKNC","isin":"RU0009100507","name":"Нижнекамскнефтехим"},{"figi":"BBG000W325F7","ticker":"AQUA","isin":"RU000A0JQTS3","name":"ИНАРКТИКА"},{"figi":"BBG000BX7DH0","ticker":"VRSB","isin":"RU000A0DPG67","name":"ТНС энерго Воронеж"},{"figi":"TCS00A0JRH43","ticker":"MBNK","isin":"RU000A0JRH43","name":"МТС-Банк"},{"figi":"BBG004730JJ5","ticker":"MOEX","isin":"RU000A0JR4A1","name":"Московская Биржа"},{"figi":"BBG004Z2RGW8","ticker":"ROLO","isin":"RU000A0JU1B0","name":"Русолово"},{"figi":"BBG00Y91R9T3","ticker":"OZON","isin":"US69269L1044","name":"Ozon Holdings PLC"},{"figi":"BBG000RK52V1","ticker":"OGKB","isin":"RU000A0JNG55","name":"Вторая генерирующая компания оптового рынка электроэнергии"},{"figi":"TCS009084453","ticker":"NOMP","isin":"RU0009084453","name":"Новошип - ао"},{"figi":"BBG000VFX6Y4","ticker":"GLTR","isin":"US37949E2046","name":"Globaltrans Investment PLC"},{"figi":"BBG002B9T6Y1","ticker":"KAZTP","isin":"RU000A0B9BW0","name":"КуйбышевАзот - Акции привилегированные"},{"figi":"BBG0047315D0","ticker":"SNGS","isin":"RU0008926258","name":"Сургутнефтегаз"},{"figi":"BBG009GSYN76","ticker":"CBOM","isin":"RU000A0JUG31","name":"МКБ"},{"figi":"BBG000RJWGC4","ticker":"AMEZ","isin":"RU000A0B88G6","name":"Ашинский метзавод"},{"figi":"BBG000Q7GJ60","ticker":"TGKBP","isin":"RU000A0JNGT5","name":"ТГК-2 - акции привилегированные"},{"figi":"BBG002W2FT69","ticker":"ABRD","isin":"RU000A0JS5T7","name":"АбрауДюрсо"},{"figi":"BBG004S68BH6","ticker":"PIKK","isin":"RU000A0JP7J7","name":"ПИК"},{"figi":"BBG004731354","ticker":"ROSN","isin":"RU000A0J2Q06","name":"Роснефть"},{"figi":"TCS00A1002V2","ticker":"EUTR","isin":"RU000A1002V2","name":"ЕвроТранс"},{"figi":"BBG004TC84Z8","ticker":"TRMK","isin":"RU000A0B6NK6","name":"Трубная Металлургическая Компания"},{"figi":"TCS00A0ZZBC2","ticker":"SOFL","isin":"RU000A0ZZBC2","name":"Софтлайн"},{"figi":"BBG000VKG4R5","ticker":"MRKU","isin":"RU000A0JPPT1","name":"Россети Урал"},{"figi":"TCS10A0J2QG8","ticker":"BLNG","isin":"RU000A0J2QG8","name":"Белон"},{"figi":"BBG002B2J5X0","ticker":"KRKNP","isin":"RU0009100416","name":"Саратовский НПЗ - акции привилегированные"},{"figi":"BBG00475K6C3","ticker":"CHMF","isin":"RU0009046510","name":"Северсталь"},{"figi":"BBG000RMWQD4","ticker":"ENPG","isin":"RU000A100K72","name":"Эн+"},{"figi":"BBG004PYF2N3","ticker":"POLY","isin":"JE00B6T5S470","name":"Solidcore Resources plc"},{"figi":"BBG000GQSVC2","ticker":"NKNCP","isin":"RU0006765096","name":"Нижнекамскнефтехим (привилегированные)"},{"figi":"TCS00A0HG602","ticker":"OBNEP","isin":"RU000A0HG602","name":"Обьнефтегазгеология - привилегированные акции"},{"figi":"TCS009102396","ticker":"UFOSP","isin":"RU0009102396","name":"Уфаоргсинтез - привилегированные акции"},{"figi":"BBG000PKWCQ7","ticker":"MRKV","isin":"RU000A0JPPN4","name":"МРСК Волги"},{"figi":"BBG004S68C39","ticker":"LSRG","isin":"RU000A0JPFP0","name":"Группа ЛСР"},{"figi":"TCS00A107UL4","ticker":"TCSG","isin":"RU000A107UL4","name":"ТКС Холдинг"},{"figi":"BBG000BBV4M5","ticker":"CNTL","isin":"RU0007665147","name":"Центральный Телеграф"},{"figi":"TCS5407L2079","ticker":"SFTL","isin":"US83407L2079","name":"Noventiq ГДР"},{"figi":"TCS10A108K09","ticker":"VSEH","isin":"RU000A108K09","name":"ВИ.РУ"},{"figi":"BBG004S68JR8","ticker":"SVAV","isin":"RU0006914488","name":"СОЛЛЕРС"},{"figi":"BBG004S685M3","ticker":"RTKMP","isin":"RU0009046700","name":"Ростелеком - Привилегированные акции"},{"figi":"BBG000LNHHJ9","ticker":"KMAZ","isin":"RU0008959580","name":"КАМАЗ"},{"figi":"BBG0029SFXB3","ticker":"KZOS","isin":"RU0009089825","name":"Казаньоргсинтез - акции обыкновенные"},{"figi":"BBG00ZHCX1X2","ticker":"FIXP","isin":"US33835G2057","name":"Fix Price Group"},{"figi":"BBG000PZ0833","ticker":"MGTSP","isin":"RU0009036479","name":"МГТС - акции привилегированные"},{"figi":"BBG000F6YPH8","ticker":"ELFV","isin":"RU000A0F5UN3","name":"ЭЛ5-Энерго"},{"figi":"TCS00A107KX0","ticker":"KLVZ","isin":"RU000A107KX0","name":"Кристалл"},{"figi":"BBG007N0Z367","ticker":"AGRO","isin":"US7496552057","name":"РусАгро"},{"figi":"BBG00R4Z2NT4","ticker":"VEON-RX","isin":"BMG9349W1038","name":"VEON"},{"figi":"TCS002614686","ticker":"NTZL","isin":"RU0002614686","name":"НИТЕЛ"},{"figi":"TCS20A107662","ticker":"HEAD","isin":"RU000A107662","name":"Хэдхантер"},{"figi":"TCS10A0JV532","ticker":"GRNT","isin":"RU000A0JV532","name":"Городские Инновационные Технологии"},{"figi":"TCS00A107T19","ticker":"YDEX","isin":"RU000A107T19","name":"Яндекс"},{"figi":"BBG00F6NKQX3","ticker":"SMLT","isin":"RU000A0ZZG02","name":"ГК Самолет"},{"figi":"BBG004S68758","ticker":"BANE","isin":"RU0007976957","name":"Башнефть"},{"figi":"BBG004S683W7","ticker":"AFLT","isin":"RU0009062285","name":"Аэрофлот"},{"figi":"BBG012YQ6P43","ticker":"CIAN","isin":"US83418T1088","name":"Циан АДР"},{"figi":"BBG001BBGNS2","ticker":"ORUP","isin":"RU000A0JXKG3","name":"Обувь России"},{"figi":"BBG004730N88","ticker":"SBER","isin":"RU0009029540","name":"Сбер Банк"},{"figi":"TCS00A105BN4","ticker":"GECO","isin":"RU000A105BN4","name":"Генетико"},{"figi":"BBG004S68CP5","ticker":"MVID","isin":"RU000A0JPGA0","name":"М.Видео"},{"figi":"BBG000MZL2S9","ticker":"PMSBP","isin":"RU000A0ET156","name":"Пермэнергосбыт - акции привилегированные"},{"figi":"BBG004S68DD6","ticker":"MSTT","isin":"RU0009177331","name":"Мостотрест"},{"figi":"BBG004S68598","ticker":"MTLR","isin":"RU000A0DKXV5","name":"Мечел"},{"figi":"TCS00A108GD8","ticker":"IVAT","isin":"RU000A108GD8","name":"IVA Technologies"},{"figi":"BBG004S688G4","ticker":"AKRN","isin":"RU0009028674","name":"Акрон"},{"figi":"TCS00Y3XYV94","ticker":"MDMG","isin":"RU000A108KL3","name":"Мать и дитя"},{"figi":"BBG004730RP0","ticker":"GAZP","isin":"RU0007661625","name":"Газпром"},{"figi":"BBG0047315Y7","ticker":"SBERP","isin":"RU0009029557","name":"Сбер Банк - привилегированные акции"},{"figi":"BBG0063FKTD9","ticker":"LENT","isin":"RU000A102S15","name":"Лента"},{"figi":"BBG000QJW156","ticker":"BSPB","isin":"RU0009100945","name":"Банк Санкт-Петербург"},{"figi":"RU000A106T36","ticker":"ASTR","isin":"RU000A106T36","name":"Группа Астра"},{"figi":"BBG000LWNRP3","ticker":"RKKE","isin":"RU0009095939","name":"РКК Энергия им.С.П.Королева"},{"figi":"BBG000NLC9Z6","ticker":"LSNG","isin":"RU0009034490","name":"Ленэнерго"},{"figi":"BBG00QKJSX05","ticker":"RENI","isin":"RU000A0ZZM04","name":"Ренессанс Страхование"},{"figi":"BBG000VH7TZ8","ticker":"MRKC","isin":"RU000A0JPPL8","name":"Россети Центр"},{"figi":"TCS00A103X66","ticker":"POSI","isin":"RU000A103X66","name":"Positive Technologies"},{"figi":"BBG000NLB2G3","ticker":"KROT","isin":"RU0008913850","name":"Красный Октябрь"},{"figi":"BBG002B9MYC1","ticker":"KAZT","isin":"RU000A0B9BV2","name":"КуйбышевАзот"},{"figi":"BBG004S684M6","ticker":"SIBN","isin":"RU0009062467","name":"Газпром нефть"},{"figi":"BBG002B298N6","ticker":"YAKG","isin":"RU0007796819","name":"ЯТЭК"},{"figi":"BBG000Q7GG57","ticker":"TGKB","isin":"RU000A0JNGS7","name":"ТГК-2"},{"figi":"BBG000DBD6F6","ticker":"KLSB","isin":"RU000A0DKZK3","name":"Калужская сбытовая компания"},{"figi":"TCS00A0JR6A6","ticker":"RBCM","isin":"RU000A0JR6A6","name":"РБК"},{"figi":"BBG000RP8V70","ticker":"CHMK","isin":"RU0007665170","name":"ЧМК"},{"figi":"BBG00F9XX7H4","ticker":"RNFT","isin":"RU000A0JSE60","name":"РуссНефть"},{"figi":"BBG000TJ6F42","ticker":"MRKZ","isin":"RU000A0JPPB9","name":"Россети Северо-Запад"},{"figi":"BBG000K3STR7","ticker":"APTK","isin":"RU0008081765","name":"Аптечная сеть 36,6"},{"figi":"BBG005D1WCQ1","ticker":"QIWI","isin":"US74735M1080","name":"QIWI"},{"figi":"BBG00475K2X9","ticker":"HYDR","isin":"RU000A0JPKH7","name":"РусГидро"},{"figi":"BBG004S681B4","ticker":"NLMK","isin":"RU0009046452","name":"НЛМК"},{"figi":"BBG000TY1CD1","ticker":"BELU","isin":"RU000A0HL5M1","name":"Novabev Group"},{"figi":"BBG000SR0YS4","ticker":"LNZLP","isin":"RU000A0JP1P7","name":"Лензолото - привилегированные акции"},{"figi":"BBG003LYCMB1","ticker":"SFIN","isin":"RU000A0JVW89","name":"ЭсЭфАй"},{"figi":"BBG000QF1Q17","ticker":"FESH","isin":"RU0008992318","name":"ДВМП"},{"figi":"BBG004S68696","ticker":"RASP","isin":"RU000A0B90N8","name":"Распадская"},{"figi":"TCS009177281","ticker":"NOMPP","isin":"RU0009177281","name":"Новошип - привилегированные акции"},{"figi":"BBG0100R9963","ticker":"SGZH","isin":"RU000A102XG9","name":"Сегежа"},{"figi":"BBG000NLCCM3","ticker":"LSNGP","isin":"RU0009092134","name":"Ленэнерго - акции привилегированные"},{"figi":"BBG004731489","ticker":"GMKN","isin":"RU0007288411","name":"Норильский никель"},{"figi":"TCS00A0JR514","ticker":"LIFE","isin":"RU000A0JR514","name":"Фармсинтез"},{"figi":"BBG004S686W0","ticker":"UPRO","isin":"RU000A0JNGA5","name":"Юнипро"},{"figi":"BBG000VJMH65","ticker":"MRKS","isin":"RU000A0JPPF0","name":"МРСК Сибири"},{"figi":"BBG004S687W8","ticker":"MSNG","isin":"RU0008958863","name":"Мосэнерго"},{"figi":"BBG004S68614","ticker":"AFKS","isin":"RU000A0DQZE3","name":"АФК Система"},{"figi":"BBG000R607Y3","ticker":"PLZL","isin":"RU000A0JNAA8","name":"Полюс"},{"figi":"BBG004731032","ticker":"LKOH","isin":"RU0009024277","name":"ЛУКОЙЛ"},{"figi":"TCS00A107J11","ticker":"DELI","isin":"RU000A107J11","name":"Делимобиль"},{"figi":"TCS00A0JVJQ8","ticker":"MGKL","isin":"RU000A0JVJQ8","name":"Мосгорломбард"},{"figi":"TCS00A0ZZFS9","ticker":"LEAS","isin":"RU000A0ZZFS9","name":"Европлан"},{"figi":"TCS009046502","ticker":"UDMN","isin":"RU0009046502","name":"Удмуртнефть"},{"figi":"BBG004S68BR5","ticker":"NMTP","isin":"RU0009084446","name":"НМТП"},{"figi":"BBG000QFH687","ticker":"TGKA","isin":"RU000A0JNUD0","name":"ТГК-1"},{"figi":"BBG0027F0Y27","ticker":"CNTLP","isin":"RU0007665139","name":"Центральный Телеграф - акции привилегированные"},{"figi":"BBG004S68FR6","ticker":"MTLRP","isin":"RU000A0JPV70","name":"Мечел - Привилегированные акции"},{"figi":"BBG000C7P5M7","ticker":"MRKY","isin":"RU000A0JPPG8","name":"МРСК Юга"}]
+2024-09-30 10:59:06 [INFO]: Топ 15 акций по объему за последние три месяца: [
+  {
+    "ticker": "GRNT",
+    "figi": "TCS10A0JV532",
+    "totalVolume": 7064071675
+  },
+  {
+    "ticker": "VTBR",
+    "figi": "BBG004730ZJ9",
+    "totalVolume": 5836746788
+  },
+  {
+    "ticker": "MTLR",
+    "figi": "BBG004S68598",
+    "totalVolume": 4901035123
+  },
+  {
+    "ticker": "UWGN",
+    "figi": "BBG008HD3V85",
+    "totalVolume": 4361839407
+  },
+  {
+    "ticker": "RNFT",
+    "figi": "BBG00F9XX7H4",
+    "totalVolume": 1761620959
+  },
+  {
+    "ticker": "EUTR",
+    "figi": "TCS00A1002V2",
+    "totalVolume": 1189238237
+  },
+  {
+    "ticker": "SNGSP",
+    "figi": "BBG004S681M2",
+    "totalVolume": 1107994774
+  },
+  {
+    "ticker": "GAZP",
+    "figi": "BBG004730RP0",
+    "totalVolume": 986292412
+  },
+  {
+    "ticker": "ROSN",
+    "figi": "BBG004731354",
+    "totalVolume": 965879135
+  },
+  {
+    "ticker": "SBER",
+    "figi": "BBG004730N88",
+    "totalVolume": 927898046
+  },
+  {
+    "ticker": "SGZH",
+    "figi": "BBG0100R9963",
+    "totalVolume": 917641367
+  },
+  {
+    "ticker": "AFLT",
+    "figi": "BBG004S683W7",
+    "totalVolume": 626006382
+  },
+  {
+    "ticker": "VKCO",
+    "figi": "TCS00A106YF0",
+    "totalVolume": 580771542
+  },
+  {
+    "ticker": "RUAL",
+    "figi": "BBG008F2T3T2",
+    "totalVolume": 538235427
+  },
+  {
+    "ticker": "TATN",
+    "figi": "BBG004RVFFC0",
+    "totalVolume": 533575553
+  }
+]
+2024-09-30 10:59:06 [INFO]: 
+
+Вставка в config.js:
+
+2024-09-30 10:59:06 [INFO]: 
+stocksArray: ["GRNT","VTBR","MTLR","UWGN","RNFT","EUTR","SNGSP","GAZP","ROSN","SBER","SGZH","AFLT","VKCO","RUAL","TATN"]
+2024-09-30 10:59:06 [INFO]: 
+figiArray: ["TCS10A0JV532","BBG004730ZJ9","BBG004S68598","BBG008HD3V85","BBG00F9XX7H4","TCS00A1002V2","BBG004S681M2","BBG004730RP0","BBG004731354","BBG004730N88","BBG0100R9963","BBG004S683W7","TCS00A106YF0","BBG008F2T3T2","BBG004RVFFC0"]
