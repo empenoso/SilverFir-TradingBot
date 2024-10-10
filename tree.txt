@@ -1,26 +1,32 @@
-﻿Структура папок
+﻿Структура папок 
+tree /F /A > tree.txt
+
 D:.
-¦   package-lock.json
-¦   package.json
-¦   
+|   package.json
+|   tree.txt
+|   
 +---config
-¦       secrets.js
-¦       
+|       secrets.js
+|       
++---data
+|       forecastTable.html
+|       
 +---logs
-¦       trading.log
-¦       trading_2024-09-30.log
-¦       
+|       trading.log
+|       trading_2024-09-30.log
+|       trading_2024-10-10.log
+|       
 +---node_modules
-¦   ¦   .package-lock.json
-¦   
-¦                           
-L---src
-    ¦   searchTradingVolumes.js
-    ¦   
+|   |   .package-lock.json
+|                           
+\---src
+    |   forecastMap.js
+    |   searchTradingVolumes.js
+    |   
     +---grpc
-    ¦       tinkoffClient.js
-    ¦       
-    L---services
+    |       tinkoffClient.js
+    |       
+    \---services
             logFunctionName.js
             logService.js
             

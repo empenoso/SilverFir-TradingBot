@@ -1,0 +1,855 @@
+
+    <html>
+    <head>
+        <style>
+            body { font-family: Arial, sans-serif; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; }
+            th { cursor: pointer; background-color: #f2f2f2; }
+            tr:hover { background-color: #f5f5f5; }
+            img { width: 50px; }
+        </style>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load('current', {'packages':['table']});
+            google.charts.setOnLoadCallback(drawTable);
+
+            function drawTable() {
+                var data = new google.visualization.DataTable();
+                
+                // Define the columns
+                data.addColumn('string', 'Наименование');
+                data.addColumn('string', 'Тикер');
+                data.addColumn('string', 'Логотип');
+                data.addColumn('number', 'Текущая цена');
+                data.addColumn('number', 'Консенсусная цена');
+                data.addColumn('number', 'Потенциал роста + падения, %');
+                data.addColumn('number', 'Количество аналитиков');
+                data.addColumn('string', 'Страна');
+
+                // Add rows from forecasts data
+                data.addRows([
+                    [
+                        'Сегежа', 
+                        'SGZH', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/segezhax160.png" alt="Logo">',
+                        1.57, 
+                        3.94, 
+                        150.96, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'ГК Самолет', 
+                        'SMLT', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A102RX6x160.png" alt="Logo">',
+                        1813.5, 
+                        4071.43, 
+                        124.51, 
+                        7, 
+                        'Российская Федерация'
+                    ],[
+                        'ТГК-1', 
+                        'TGKA', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JNUD0x160.png" alt="Logo">',
+                        0.1, 
+                        0.2, 
+                        100, 
+                        2, 
+                        'Российская Федерация'
+                    ],[
+                        'Мечел', 
+                        'MTLR', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0DKXV5x160.png" alt="Logo">',
+                        110.68, 
+                        220, 
+                        98.77, 
+                        2, 
+                        'Российская Федерация'
+                    ],[
+                        'Европлан', 
+                        'LEAS', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A100DG5x160.png" alt="Logo">',
+                        639, 
+                        1198, 
+                        87.48, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Промомед', 
+                        'PRMD', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A102LB5x160.png" alt="Logo">',
+                        383.8, 
+                        700, 
+                        82.39, 
+                        1, 
+                        'Российская Федерация'
+                    ],[
+                        'IVA Technologies', 
+                        'IVAT', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/ivatecx160.png" alt="Logo">',
+                        211.95, 
+                        385, 
+                        81.65, 
+                        2, 
+                        'Российская Федерация'
+                    ],[
+                        'ЭсЭфАй', 
+                        'SFIN', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/SFIx160.png" alt="Logo">',
+                        1306, 
+                        2358.4, 
+                        80.58, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'Трубная Металлургическая Компания', 
+                        'TRMK', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0B6NK6x160.png" alt="Logo">',
+                        112.4, 
+                        201, 
+                        78.83, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'Делимобиль', 
+                        'DELI', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/delimobilx160.png" alt="Logo">',
+                        203, 
+                        352, 
+                        73.4, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Мечел - Привилегированные акции', 
+                        'MTLRP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0DKXV5x160.png" alt="Logo">',
+                        115.45, 
+                        196.7, 
+                        70.38, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'Лента', 
+                        'LENT', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/Lentax160.png" alt="Logo">',
+                        1021, 
+                        1701, 
+                        66.6, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'МТС-Банк', 
+                        'MBNK', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/mtcbankx160.png" alt="Logo">',
+                        1625, 
+                        2670.98, 
+                        64.37, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Etalon Group PLC ГДР', 
+                        'ETLN', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/EtalonGroupx160.png" alt="Logo">',
+                        65.92, 
+                        107.17, 
+                        62.58, 
+                        6, 
+                        'Российская Федерация'
+                    ],[
+                        'ИНАРКТИКА', 
+                        'AQUA', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/inarkticax160.png" alt="Logo">',
+                        612, 
+                        995, 
+                        62.58, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'СОЛЛЕРС', 
+                        'SVAV', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0006914488x160.png" alt="Logo">',
+                        803, 
+                        1295, 
+                        61.27, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Fix Price Group', 
+                        'FIXP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/FixPricex160.png" alt="Logo">',
+                        192.6, 
+                        308.18, 
+                        60.1, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Globaltrans Investment PLC', 
+                        'GLTR', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/US37949E2046x160.png" alt="Logo">',
+                        519.1, 
+                        827.74, 
+                        59.46, 
+                        5, 
+                        'Российская Федерация'
+                    ],[
+                        'Магнит', 
+                        'MGNT', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JKQU8x160.png" alt="Logo">',
+                        4889.5, 
+                        7693.6, 
+                        57.35, 
+                        5, 
+                        'Российская Федерация'
+                    ],[
+                        'НЛМК', 
+                        'NLMK', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/NLMKx160.png" alt="Logo">',
+                        134.28, 
+                        210.28, 
+                        56.6, 
+                        8, 
+                        'Российская Федерация'
+                    ],[
+                        'АФК Система', 
+                        'AFKS', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0DQZE3x160.png" alt="Logo">',
+                        15.26, 
+                        23.57, 
+                        54.46, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Циан АДР', 
+                        'CIAN', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/cianx160.png" alt="Logo">',
+                        596.8, 
+                        921.75, 
+                        54.45, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Банк ВТБ', 
+                        'VTBR', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/vtbx160.png" alt="Logo">',
+                        89.79, 
+                        137.42, 
+                        53.5, 
+                        7, 
+                        'Российская Федерация'
+                    ],[
+                        'Ростелеком', 
+                        'RTKM', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0008943394x160.png" alt="Logo">',
+                        73.17, 
+                        111.75, 
+                        52.73, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Софтлайн', 
+                        'SOFL', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0ZZBC2x160.png" alt="Logo">',
+                        132.98, 
+                        203, 
+                        52.65, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Ростелеком - Привилегированные акции', 
+                        'RTKMP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0008943394x160.png" alt="Logo">',
+                        67.4, 
+                        102, 
+                        51.34, 
+                        1, 
+                        'Российская Федерация'
+                    ],[
+                        'Совкомбанк', 
+                        'SVCB', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/sovkombankx160.png" alt="Logo">',
+                        13.45, 
+                        20.35, 
+                        51.3, 
+                        7, 
+                        'Российская Федерация'
+                    ],[
+                        'ВИ.РУ', 
+                        'VSEH', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0ZZXT0x160.png" alt="Logo">',
+                        121.4, 
+                        183, 
+                        50.74, 
+                        1, 
+                        'Российская Федерация'
+                    ],[
+                        'ТКС Холдинг', 
+                        'TCSG', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/tcs2x160.png" alt="Logo">',
+                        2568, 
+                        3858.58, 
+                        50.26, 
+                        7, 
+                        'Российская Федерация'
+                    ],[
+                        'Норильский никель', 
+                        'GMKN', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/nornikelx160.png" alt="Logo">',
+                        104, 
+                        156, 
+                        50, 
+                        8, 
+                        'Российская Федерация'
+                    ],[
+                        'Whoosh', 
+                        'WUSH', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/Whooshx160.png" alt="Logo">',
+                        192, 
+                        285, 
+                        48.44, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'Юнипро', 
+                        'UPRO', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/Uniprox160.png" alt="Logo">',
+                        1.719, 
+                        2.521, 
+                        46.66, 
+                        5, 
+                        'Российская Федерация'
+                    ],[
+                        'Эн+', 
+                        'ENPG', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/US29355E2081x160.png" alt="Logo">',
+                        329.85, 
+                        482, 
+                        46.13, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'Ozon Holdings PLC', 
+                        'OZON', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/ISSUANCEOZONx160.png" alt="Logo">',
+                        3056.5, 
+                        4460.45, 
+                        45.93, 
+                        9, 
+                        'Российская Федерация'
+                    ],[
+                        'ЕвроТранс', 
+                        'EUTR', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A105PP9x160.png" alt="Logo">',
+                        136.4, 
+                        197.5, 
+                        44.79, 
+                        2, 
+                        'Российская Федерация'
+                    ],[
+                        'Южуралзолото ГК', 
+                        'UGLD', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A105GS2x160.png" alt="Logo">',
+                        0.68, 
+                        0.98, 
+                        44.12, 
+                        6, 
+                        'Российская Федерация'
+                    ],[
+                        'Магнитогорский металлургический комбинат', 
+                        'MAGN', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0009084396x160.png" alt="Logo">',
+                        43.425, 
+                        62.525, 
+                        43.98, 
+                        9, 
+                        'Российская Федерация'
+                    ],[
+                        'Сбер Банк - привилегированные акции', 
+                        'SBERP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/sber3x160.png" alt="Logo">',
+                        260.6, 
+                        370.63, 
+                        42.22, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'РусГидро', 
+                        'HYDR', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JPKH7x160.png" alt="Logo">',
+                        0.5281, 
+                        0.745, 
+                        41.7, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'НОВАТЭК', 
+                        'NVTK', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/novatecx160.png" alt="Logo">',
+                        976.8, 
+                        1382.2, 
+                        41.5, 
+                        8, 
+                        'Российская Федерация'
+                    ],[
+                        'Мосгорломбард', 
+                        'MGKL', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A104XJ9x160.png" alt="Logo">',
+                        2.54, 
+                        3.58, 
+                        40.94, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'Селигдар', 
+                        'SELG', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/seligdarx160.png" alt="Logo">',
+                        56.78, 
+                        80, 
+                        40.89, 
+                        1, 
+                        'Российская Федерация'
+                    ],[
+                        'ПИК', 
+                        'PIKK', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/pik1x160.png" alt="Logo">',
+                        636, 
+                        886.7, 
+                        39.42, 
+                        6, 
+                        'Российская Федерация'
+                    ],[
+                        'Транснефть - привилегированные акции', 
+                        'TRNFP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0009091573x160.png" alt="Logo">',
+                        1400, 
+                        1950, 
+                        39.29, 
+                        7, 
+                        'Российская Федерация'
+                    ],[
+                        'HENDERSON', 
+                        'HNFG', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/hendersonx160.png" alt="Logo">',
+                        627.7, 
+                        870, 
+                        38.6, 
+                        6, 
+                        'Российская Федерация'
+                    ],[
+                        'Роснефть', 
+                        'ROSN', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0J2Q06x160.png" alt="Logo">',
+                        495.85, 
+                        680.6, 
+                        37.26, 
+                        8, 
+                        'Российская Федерация'
+                    ],[
+                        'МТС', 
+                        'MTSS', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/mtsnewx160.png" alt="Logo">',
+                        206.6, 
+                        283.46, 
+                        37.2, 
+                        7, 
+                        'Российская Федерация'
+                    ],[
+                        'Сбер Банк', 
+                        'SBER', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/sber3x160.png" alt="Logo">',
+                        260.86, 
+                        356.85, 
+                        36.8, 
+                        10, 
+                        'Российская Федерация'
+                    ],[
+                        'Совкомфлот', 
+                        'FLOT', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/ISSUANCEFLOTx160.png" alt="Logo">',
+                        101.12, 
+                        137.58, 
+                        36.6, 
+                        9, 
+                        'Российская Федерация'
+                    ],[
+                        'Северсталь', 
+                        'CHMF', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0009046510x160.png" alt="Logo">',
+                        1224, 
+                        1671, 
+                        36.52, 
+                        8, 
+                        'Российская Федерация'
+                    ],[
+                        'Сургутнефтегаз', 
+                        'SNGS', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0008926258x160.png" alt="Logo">',
+                        25.95, 
+                        35.37, 
+                        36.3, 
+                        6, 
+                        'Российская Федерация'
+                    ],[
+                        'HeadHunter Group PLC', 
+                        'HHRU', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/US42207L1061x160.png" alt="Logo">',
+                        3908, 
+                        5321.25, 
+                        36.16, 
+                        8, 
+                        'Российская Федерация'
+                    ],[
+                        'НМТП', 
+                        'NMTP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0009084446x160.png" alt="Logo">',
+                        8.385, 
+                        11.355, 
+                        35.42, 
+                        2, 
+                        'Российская Федерация'
+                    ],[
+                        'Интер РАО ЕЭС', 
+                        'IRAO', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JPNM1x160.png" alt="Logo">',
+                        3.8515, 
+                        5.189, 
+                        34.73, 
+                        8, 
+                        'Российская Федерация'
+                    ],[
+                        'АЛРОСА', 
+                        'ALRS', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0007252813x160.png" alt="Logo">',
+                        54.13, 
+                        72.8, 
+                        34.49, 
+                        2, 
+                        'Российская Федерация'
+                    ],[
+                        'United medical group', 
+                        'GEMC', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/emcx160.png" alt="Logo">',
+                        675.4, 
+                        900, 
+                        33.25, 
+                        1, 
+                        'Российская Федерация'
+                    ],[
+                        'Башнефть - привилегированные акции', 
+                        'BANEP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0007976957x160.png" alt="Logo">',
+                        1304.5, 
+                        1723, 
+                        32.8, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Мать и дитя', 
+                        'MDMG', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/US55279C2008x160.png" alt="Logo">',
+                        875.6, 
+                        1156.8, 
+                        32.12, 
+                        5, 
+                        'Российская Федерация'
+                    ],[
+                        'ВК', 
+                        'VKCO', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/vkcx160.png" alt="Logo">',
+                        339.6, 
+                        447.5, 
+                        31.77, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Группа ЛСР', 
+                        'LSRG', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JPFP0x160.png" alt="Logo">',
+                        695.2, 
+                        902.6, 
+                        29.83, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Татнефть - привилегированные акции', 
+                        'TATNP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0006944147x160.png" alt="Logo">',
+                        609.8, 
+                        788, 
+                        29.22, 
+                        7, 
+                        'Российская Федерация'
+                    ],[
+                        'Ренессанс Страхование', 
+                        'RENI', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/reninsx160.png" alt="Logo">',
+                        96.62, 
+                        123.75, 
+                        28.8, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'Мосэнерго', 
+                        'MSNG', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0008958863x160.png" alt="Logo">',
+                        2.5215, 
+                        3.24, 
+                        28.49, 
+                        2, 
+                        'Российская Федерация'
+                    ],[
+                        'Московская Биржа', 
+                        'MOEX', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/MOEXx160.png" alt="Logo">',
+                        212.34, 
+                        271.86, 
+                        28.3, 
+                        11, 
+                        'Российская Федерация'
+                    ],[
+                        'Аэрофлот', 
+                        'AFLT', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0009062285x160.png" alt="Logo">',
+                        53.96, 
+                        69.16, 
+                        28.17, 
+                        8, 
+                        'Российская Федерация'
+                    ],[
+                        'Татнефть', 
+                        'TATN', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0006944147x160.png" alt="Logo">',
+                        613.2, 
+                        782.44, 
+                        27.6, 
+                        9, 
+                        'Российская Федерация'
+                    ],[
+                        'ФосАгро', 
+                        'PHOR', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JRKT8x160.png" alt="Logo">',
+                        5420, 
+                        6884.6, 
+                        27.2, 
+                        5, 
+                        'Российская Федерация'
+                    ],[
+                        'ЛУКОЙЛ', 
+                        'LKOH', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0009024277x160.png" alt="Logo">',
+                        6883.5, 
+                        8740, 
+                        26.97, 
+                        11, 
+                        'Российская Федерация'
+                    ],[
+                        'М.Видео', 
+                        'MVID', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JPGA0x160.png" alt="Logo">',
+                        105.9, 
+                        134, 
+                        26.53, 
+                        1, 
+                        'Российская Федерация'
+                    ],[
+                        'РусАгро', 
+                        'AGRO', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/US7496552057x160.png" alt="Logo">',
+                        1221.2, 
+                        1533, 
+                        25.53, 
+                        6, 
+                        'Российская Федерация'
+                    ],[
+                        'Хэдхантер', 
+                        'HEAD', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/US42207L1061x160.png" alt="Logo">',
+                        4185, 
+                        5246.34, 
+                        25.36, 
+                        9, 
+                        'Российская Федерация'
+                    ],[
+                        'Positive Technologies', 
+                        'POSI', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A103X66x160.png" alt="Logo">',
+                        2585.8, 
+                        3211.72, 
+                        24.21, 
+                        7, 
+                        'Российская Федерация'
+                    ],[
+                        'Полюс', 
+                        'PLZL', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/PolyusGoldx160.png" alt="Logo">',
+                        13019.5, 
+                        16092.5, 
+                        23.6, 
+                        9, 
+                        'Российская Федерация'
+                    ],[
+                        'Яндекс', 
+                        'YDEX', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/NL000980552x160.png" alt="Logo">',
+                        3933.5, 
+                        4843.3, 
+                        23.13, 
+                        10, 
+                        'Российская Федерация'
+                    ],[
+                        'OKey Group SA', 
+                        'OKEY', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JXQH8x160.png" alt="Logo">',
+                        25.74, 
+                        31.65, 
+                        22.96, 
+                        2, 
+                        'Российская Федерация'
+                    ],[
+                        'Банк Санкт-Петербург', 
+                        'BSPB', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0009100945x160.png" alt="Logo">',
+                        355.32, 
+                        433.75, 
+                        22.7, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'РУСАЛ', 
+                        'RUAL', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JWDN61x160.png" alt="Logo">',
+                        34.25, 
+                        41, 
+                        20.5, 
+                        5, 
+                        'Российская Федерация'
+                    ],[
+                        'Газпром', 
+                        'GAZP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0007661625x160.png" alt="Logo">',
+                        132.51, 
+                        154.32, 
+                        16.46, 
+                        5, 
+                        'Российская Федерация'
+                    ],[
+                        'Novabev Group', 
+                        'BELU', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/Novabaevx160.png" alt="Logo">',
+                        642, 
+                        745, 
+                        16.4, 
+                        4, 
+                        'Российская Федерация'
+                    ],[
+                        'РуссНефть', 
+                        'RNFT', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JSE60x160.png" alt="Logo">',
+                        166.2, 
+                        191, 
+                        14.92, 
+                        2, 
+                        'Российская Федерация'
+                    ],[
+                        'Диасофт', 
+                        'DIAS', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/diasoftx160.png" alt="Logo">',
+                        5248.5, 
+                        5966.67, 
+                        13.68, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'Группа Астра', 
+                        'ASTR', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/astrax160.png" alt="Logo">',
+                        528.6, 
+                        594, 
+                        12.37, 
+                        5, 
+                        'Российская Федерация'
+                    ],[
+                        'Газпром нефть', 
+                        'SIBN', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0007661625x160.png" alt="Logo">',
+                        702, 
+                        782.2, 
+                        11.42, 
+                        6, 
+                        'Российская Федерация'
+                    ],[
+                        'Распадская', 
+                        'RASP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0B90N8x160.png" alt="Logo">',
+                        263, 
+                        280, 
+                        6.46, 
+                        1, 
+                        'Российская Федерация'
+                    ],[
+                        'Сургутнефтегаз - привилегированные акции', 
+                        'SNGSP', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0008926258x160.png" alt="Logo">',
+                        55.46, 
+                        52.98, 
+                        -4, 
+                        7, 
+                        'Российская Федерация'
+                    ],[
+                        'Башнефть', 
+                        'BANE', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0007976957x160.png" alt="Logo">',
+                        2438, 
+                        1986.5, 
+                        -18, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'Акрон', 
+                        'AKRN', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU0009028674x160.png" alt="Logo">',
+                        16122, 
+                        12600, 
+                        -21, 
+                        1, 
+                        'Российская Федерация'
+                    ],[
+                        'Вторая генерирующая компания оптового рынка электроэнергии', 
+                        'OGKB', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JNG55x160.png" alt="Logo">',
+                        0.349, 
+                        0.25, 
+                        -28, 
+                        3, 
+                        'Российская Федерация'
+                    ],[
+                        'ФСК Россети', 
+                        'FEES', 
+                        '<img src="https://invest-brands.cdn-tinkoff.ru/RU000A0JPVJ0x160.png" alt="Logo">',
+                        0.8282, 
+                        0.5, 
+                        -39, 
+                        1, 
+                        'Российская Федерация'
+                    ]
+                ]);
+
+                var table = new google.visualization.Table(document.getElementById('forecastTable'));
+
+                table.draw(data, {
+                    allowHtml: true,
+                    showRowNumber: true,
+                    width: '100%',
+                    height: 'auto'
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Сводная таблица рекомендаций аналитиков из T‑Bank Invest API</h2>
+        <div id="forecastTable"></div>
+        <p>Выборка сгенерирована 10.10.2024, 08:56:20.<br><br>
+        Составил <a href="https://shardin.name/" target="_blank">Михаил Шардин</a>.<br>
+        <small>Подробнее про систему поиска недооцененных российских акций, используя T‑Bank Invest API + Node.JS <a href="https://habr.com/ru/articles/849556/" target="_blank">в статье на Хабре</a>.</small></p>
+    </body>
+    </html>
+    
