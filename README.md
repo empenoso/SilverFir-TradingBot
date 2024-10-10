@@ -11,8 +11,8 @@
    * [Хабр](https://habr.com/ru/articles/846938/)
    * [Смартлаб](https://smart-lab.ru/mobile/topic/1068045/)
      
-2. Поиск рекомендаций аналитиков:  (ещё не готово)
-   * [Хабр](https://habr.com/ru/users/empenoso/)
+2. Поиск рекомендаций аналитиков: 
+   * [Хабр](https://habr.com/ru/articles/849556/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
    
 3. Работа в песочнице: (ещё не готово)
