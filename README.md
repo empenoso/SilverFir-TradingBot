@@ -15,8 +15,8 @@
    * [Хабр](https://habr.com/ru/articles/849556/)
    * [Смартлаб](https://smart-lab.ru/mobile/topic/1070670/)
    
-3. Работа в песочнице: (ещё не готово)
-   * [Хабр](https://habr.com/ru/users/empenoso/)
+3. Работа в песочнице: 
+   * [Хабр](https://habr.com/ru/articles/855302/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
 4. Инструменты: получение свечей, индикаторов, отправка ордеров (ещё не готово)
