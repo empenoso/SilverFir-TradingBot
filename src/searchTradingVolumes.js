@@ -112,6 +112,8 @@ async function findTopStocksByTurnover() {
         logger.info(`\nsecuritiesToMonitorTikerArray: ${JSON.stringify(securitiesToMonitorTikerArray)}`);
         logger.info(`\nsecuritiesToMonitorFigiArray: ${JSON.stringify(securitiesToMonitorFigiArray)}`);
 
+        logger.info(`\n\nДля использования в скрипте download_md.sh в одну колонку:\n${securitiesToMonitorFigiArray.join('\n')}`);
+
         // Возвращаем итоговые данные
         return {
             securitiesToMonitorTikerArray,
