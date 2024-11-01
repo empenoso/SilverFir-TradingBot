@@ -88,6 +88,98 @@ class TinkoffClient {
         }
     }
 
+
+    // Получение понятного имени инструмента
+    // ПЕРЕДЕЛАТЬ InstrumentsService/GetInstrumentBy Получить основную информацию об инструменте.
+    async getName(ticker) {
+        try {
+            const response = await axios.post(`${this.apiUrl}InstrumentsService/FindInstrument`, {
+                "query": ticker,
+                "instrumentKind": "INSTRUMENT_TYPE_SHARE"
+            }, {
+                headers: this.headers, // Указываем заголовки, которые должны быть переданы в качестве третьего аргумента
+            });
+            // // Выводим ответ от сервера в консоль, чтобы лучше понять структуру данных
+            // logger.info(`Ответ от API Т‑Банк:\n ${JSON.stringify(response.data, null, 2)}`);
+            if (response.data.instruments && response.data.instruments.length > 0) {
+                const instrument = response.data.instruments[0];
+                const name = instrument.name;
+                const ticker = instrument.ticker;
+                const uid = instrument.uid;
+                return {
+                    nameCombination: `${name} (${ticker})`, // Возвращаем комбинацию имени и тикера
+                    uid: uid,
+                    ticker: ticker
+                };
+            } else {
+                throw new Error('Инструмент не найден.');
+            }
+        } catch (error) {
+            logger.error(`Ошибка при получении имени инструмента: ${error.response ? error.response.data : error.message}`);
+        }
+    }
+
+
+    // Функция для отправки рыночного ордера
+    async placeMarketOrder(figi, quantity, direction) {
+        const instrument = await this.getName(figi);
+        const instrumentUid = instrument.uid;
+        const accountId = secrets.AccountID;
+
+        try {
+            const orderParams = {
+                figi: figi,
+                quantity: quantity,
+                direction: direction, // "ORDER_DIRECTION_BUY" или "ORDER_DIRECTION_SELL"
+                accountId: accountId,
+                orderType: "ORDER_TYPE_MARKET",
+                instrumentId: instrumentUid
+            };
+
+            // Отправляем в конечную точку OrdersService/PostOrder
+            const response = await axios.post(`${this.apiUrl}OrdersService/PostOrder`, orderParams, {
+                headers: this.headers,
+            });
+
+            logger.warn(`Операция ${direction === "ORDER_DIRECTION_BUY" ? "покупки" : "продажи"} выполнена успешно для ${instrument.nameCombination} (${figi}).`);
+            logger.info(`Детали операции:\n ${JSON.stringify(response.data, null, 2)}`);
+
+            // Выводим в консоль нужную информацию
+            logger.info(`Идентификатор ${direction === "ORDER_DIRECTION_BUY" ? "покупки" : "продажи"}: ${response.data.orderId}.`);
+            logger.info(`Общая стоимость сделки: ${formatPrice(response.data.initialOrderPrice.units, response.data.initialOrderPrice.nano)} руб.`);
+            logger.info(`Цена за 1 шт. ${instrument.nameCombination}: ${formatPrice(response.data.executedOrderPrice.units, response.data.executedOrderPrice.nano)} руб.`);
+            logger.info(`Комиссия за сделку: ${formatPrice(response.data.initialCommission.units, response.data.initialCommission.nano)} руб.`);
+
+            // Возвращаем цену покупки
+            return formatPrice(response.data.executedOrderPrice.units, response.data.executedOrderPrice.nano); 
+        } catch (error) {
+            logger.error(`Ошибка при размещении ордера ${figi}: ${error.response ? JSON.stringify(error.response.data, null, 2) : error.message}`);
+            return 0
+        }
+    }
+
+
+    // Получить портфель по счёту
+    async getPortfolio() {
+        try {
+            const payload = {
+                accountId: secrets.AccountID,
+                currency: "RUB" // Валюта портфеля (например, RUB)
+            };
+
+            // Вызов API с использованием универсального метода
+            const response = await this.callApi('OperationsService/GetPortfolio', payload, {
+                headers: this.headers, // Указываем заголовки, которые должны быть переданы в качестве третьего аргумента
+            });
+
+            // Возвращаем данные из ответа API
+            return response;
+        } catch (error) {
+            logger.error(`Ошибка загрузки портфолио: ${error.response ? error.response.data : error.message}`);
+        }
+    }
+
+
 }
 module.exports = TinkoffClient;
 
