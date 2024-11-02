@@ -19,7 +19,7 @@
    * [Хабр](https://habr.com/ru/articles/855302/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-4. Инструменты: получение свечей, индикаторов, отправка ордеров (ещё не готово)
+4. Инструменты: получение свечей, индикаторов, торговых лотов, понятного имени инструмента (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
@@ -35,10 +35,14 @@
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-8. Отрисовка графиков (ещё не готово)
+8. Сервис расчёта годовой доходности (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-9. Сервис бэктестинга (ещё не готово)
+9. Отрисовка графиков (ещё не готово)
+   * [Хабр](https://habr.com/ru/users/empenoso/)
+   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+
+9. Сервис бэктестинга через библиотеку backtrader на Python (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
