@@ -35,14 +35,18 @@
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-8. Сервис расчёта годовой доходности (ещё не готово)
+8. Отрисовка графиков (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-9. Отрисовка графиков (ещё не готово)
+8. Сервис, проверяющий сколько минимально денег надо, чтобы торговать (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-9. Сервис бэктестинга через библиотеку backtrader на Python (ещё не готово)
+9. Сервис расчёта годовой доходности (ещё не готово)
+   * [Хабр](https://habr.com/ru/users/empenoso/)
+   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+
+10. Сервис бэктестинга через библиотеку backtrader на Python (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
