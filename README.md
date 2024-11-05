@@ -17,7 +17,7 @@
    
 3. Работа в песочнице: 
    * [Хабр](https://habr.com/ru/articles/855302/)
-   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+   * [Смартлаб](https://smart-lab.ru/mobile/topic/1078867/)
 
 4. Инструменты: получение свечей, индикаторов, торговых лотов, понятного имени инструмента (ещё не готово)
    * [Хабр](https://habr.com/ru/articles/855742/)
