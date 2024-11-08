@@ -1,11 +1,13 @@
-﻿Структура папок 
+﻿Структура папок
 tree /F /A > tree.txt
 
 D:.
+|   package-lock.json
 |   package.json
 |   tree.txt
 |   
 +---config
+|       config.js
 |       secrets.js
 |       
 +---data
@@ -15,12 +17,17 @@ D:.
 |       trading.log
 |       trading_2024-09-30.log
 |       trading_2024-10-10.log
+|       trading_2024-11-01.log
+|       trading_2024-11-02.log
+|       trading_2024-11-08.log
 |       
 +---node_modules
-|   |   .package-lock.json
+|   
 |                           
 \---src
     |   forecastMap.js
+    |   instruments.js
+    |   sandbox.js
     |   searchTradingVolumes.js
     |   
     +---grpc

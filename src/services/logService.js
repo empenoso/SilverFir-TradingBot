@@ -8,7 +8,7 @@
  * @license Apache-2.0
  * @author Михаил Шардин [Mikhail Shardin]
  * @site https://shardin.name/
- * @repository https://github.com/empenoso?tab=repositories
+ * @repository https://github.com/empenoso/SilverFir-TradingBot
  * 
  * Last updated: 27.09.2024
  */

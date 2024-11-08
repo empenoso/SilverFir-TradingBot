@@ -45,7 +45,8 @@ async function getFilteredStocks() {
             figi: stock.figi,
             ticker: stock.ticker,
             isin: stock.isin,
-            name: stock.name
+            name: stock.name,
+            uid: stock.uid
         }));
 
         logger.info(`Отфильтрованных акций ${stockData.length} штук:\n ${JSON.stringify(stockData)}`);
@@ -77,6 +78,7 @@ async function getCandlesForStock(stock) {
         return {
             ticker: stock.ticker,
             figi: stock.figi,
+            uid: stock.uid,
             totalVolume
         };
 
@@ -103,6 +105,10 @@ async function findTopStocksByTurnover() {
         // Создаем массивы тикеров и FIGI
         const securitiesToMonitorTikerArray = topStocks.map(stock => stock.ticker);
         const securitiesToMonitorFigiArray = topStocks.map(stock => stock.figi);
+        const toPythonScript = topStocks.map(stock => ({
+            ticker: stock.ticker,
+            uid: stock.uid
+        }));
 
         // Логируем топ-15 акций и их объем
         logger.info(`Топ 15 акций по объему за последние три месяца: ${JSON.stringify(topStocks, null, 2)}`);
@@ -113,6 +119,8 @@ async function findTopStocksByTurnover() {
         logger.info(`\nsecuritiesToMonitorFigiArray: ${JSON.stringify(securitiesToMonitorFigiArray)}`);
 
         logger.info(`\n\nДля использования в скрипте download_md.sh в одну колонку:\n${securitiesToMonitorFigiArray.join('\n')}`);
+
+        logger.info(`\n\nДля использования в Python скрипте бэктестинга:\n${JSON.stringify(toPythonScript, null, 2)}`);                
 
         // Возвращаем итоговые данные
         return {

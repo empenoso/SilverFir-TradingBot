@@ -12,7 +12,7 @@
  * @site https://shardin.name/
  * @repository https://github.com/empenoso/SilverFir-TradingBot
  * 
- * Last updated: 01.11.2024
+ * Last updated: 26.09.2024
  */
 
 
@@ -54,9 +54,9 @@ async function sandboxAccount() {
     // const CloseSandboxAccount = await tinkoffClient.callApi('SandboxService/CloseSandboxAccount', accountId);
     // logger.info(`Закрытие счёта в песочнице:\n ${JSON.stringify(CloseSandboxAccount, null, '\t')}\n\n`);
 
-    // Посмотреть счета в песочнице
-    const GetSandboxAccounts = await tinkoffClient.callApi('SandboxService/GetSandboxAccounts');
-    logger.info(`Список счетов в песочнице:\n ${JSON.stringify(GetSandboxAccounts, null, '\t')}\n\n`);
+    // // Посмотреть счета в песочнице
+    // const GetSandboxAccounts = await tinkoffClient.callApi('SandboxService/GetSandboxAccounts');
+    // logger.info(`Список счетов в песочнице:\n ${JSON.stringify(GetSandboxAccounts, null, '\t')}\n\n`);
 
     // // Получить все открытые позиции указанного счёта 
     // const accountId = {
@@ -65,7 +65,7 @@ async function sandboxAccount() {
     // const GetSandboxPositions = await tinkoffClient.callApi('OperationsService/GetPositions', accountId);
     // logger.info(`Все открытые позиции счёта ${secrets.AccountID}:\n ${JSON.stringify(GetSandboxPositions, null, '\t')}\n\n`);
 
-    // // Функция для отправки рыночного ордера
+    // Функция для отправки рыночного ордера
     // tinkoffClient.placeMarketOrder('BBG004730N88', 1, 'ORDER_DIRECTION_BUY'); // Купить 1 акцию
     // tinkoffClient.placeMarketOrder('BBG004730N88', 1, 'ORDER_DIRECTION_SELL'); // Продать 1 акцию
 }
