@@ -21,7 +21,7 @@
 
 4. Инструменты: получение свечей, индикаторов, торговых лотов, понятного имени инструмента
    * [Хабр](https://habr.com/ru/articles/855742/)
-   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+   * [Смартлаб](https://smart-lab.ru/mobile/topic/1080997/)
 
 5. Запись и отслеживание позиций через CSV файл (ещё не готово)
    * [Хабр](https://habr.com/ru/users/empenoso/)
