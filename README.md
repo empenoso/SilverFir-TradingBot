@@ -21,30 +21,30 @@
    * [Хабр](https://habr.com/ru/articles/855742/)
    * [Смартлаб](https://smart-lab.ru/mobile/topic/1080997/)
 
-5. Запись и отслеживание позиций через CSV файл (ещё не готово)
+5. ~~Запись и отслеживание позиций через CSV файл~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-6. Сервис, который выполняет функцию трейлинг-стопа (ещё не готово)
+6. ~~Сервис, который выполняет функцию трейлинг-стопа~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-7. Сервис, проверяющий условия для покупки (ещё не готово)
+7. ~~Сервис, проверяющий условия для покупки~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-8. Отрисовка графиков (ещё не готово)
+8. ~~Отрисовка графиков~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-8. Сервис, проверяющий сколько минимально денег надо, чтобы торговать (ещё не готово)
+8. ~~Сервис, проверяющий сколько минимально денег надо, чтобы торговать~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-9. Сервис расчёта годовой доходности (ещё не готово)
+9. ~~Сервис расчёта годовой доходности~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-10. Сервис бэктестинга через библиотеку backtrader на Python (ещё не готово)
+10. ~~Сервис бэктестинга через библиотеку backtrader на Python~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
