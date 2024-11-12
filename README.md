@@ -45,6 +45,4 @@
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-10. ~~Сервис бэктестинга через библиотеку backtrader на Python~~
-   * [Хабр](https://habr.com/ru/users/empenoso/)
-   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+10. Сервис бэктестинга через библиотеку backtrader на Python на [GitHub](https://github.com/empenoso/SilverFir-TradingBot_backtesting)
