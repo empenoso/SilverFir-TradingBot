@@ -9,39 +9,39 @@
    * [Хабр](https://habr.com/ru/articles/846938/)
    * [Смартлаб](https://smart-lab.ru/mobile/topic/1068045/)
      
-2. Поиск рекомендаций аналитиков: 
+1. Поиск рекомендаций аналитиков: 
    * [Хабр](https://habr.com/ru/articles/849556/)
    * [Смартлаб](https://smart-lab.ru/mobile/topic/1070670/)
    
-3. Работа в песочнице: 
+1. Работа в песочнице: 
    * [Хабр](https://habr.com/ru/articles/855302/)
    * [Смартлаб](https://smart-lab.ru/mobile/topic/1078867/)
 
-4. Инструменты: получение свечей, индикаторов, торговых лотов, понятного имени инструмента
+1. Инструменты: получение свечей, индикаторов, торговых лотов, понятного имени инструмента
    * [Хабр](https://habr.com/ru/articles/855742/)
    * [Смартлаб](https://smart-lab.ru/mobile/topic/1080997/)
 
-5. ~~Запись и отслеживание позиций через CSV файл~~
+1. ~~Запись и отслеживание позиций через CSV файл~~
+   * [Хабр](https://habr.com/ru/articles/860162/)
+   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+
+1. ~~Сервис, который выполняет функцию трейлинг-стопа~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-6. ~~Сервис, который выполняет функцию трейлинг-стопа~~
+1. ~~Сервис, проверяющий условия для покупки~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-7. ~~Сервис, проверяющий условия для покупки~~
+1. ~~Отрисовка графиков~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-8. ~~Отрисовка графиков~~
+1. ~~Сервис, проверяющий сколько минимально денег надо, чтобы торговать~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
-8. ~~Сервис, проверяющий сколько минимально денег надо, чтобы торговать~~
-   * [Хабр](https://habr.com/ru/users/empenoso/)
-   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
-
-9. ~~Сервис расчёта годовой доходности~~
+1. ~~Сервис расчёта годовой доходности~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
