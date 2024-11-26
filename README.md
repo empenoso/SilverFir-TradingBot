@@ -21,7 +21,7 @@
    * [Хабр](https://habr.com/ru/articles/855742/)
    * [Смартлаб](https://smart-lab.ru/mobile/topic/1080997/)
 
-1. ~~Запись и отслеживание позиций через CSV файл~~
+1. Запись и отслеживание позиций через CSV файл
    * [Хабр](https://habr.com/ru/articles/860162/)
    * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
 
