@@ -23,7 +23,7 @@
 
 1. Запись и отслеживание позиций через CSV файл
    * [Хабр](https://habr.com/ru/articles/860162/)
-   * [Смартлаб](https://smart-lab.ru/mobile/users/empenoso/blog/)
+   * [Смартлаб](https://smart-lab.ru/mobile/topic/1087424/)
 
 1. ~~Сервис, который выполняет функцию трейлинг-стопа~~
    * [Хабр](https://habr.com/ru/users/empenoso/)
